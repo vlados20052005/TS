@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href=".//scss/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="background-header"></div>
+    <img class="fox-img" src="./assets/fox.png" alt="fox" />
+    <header class="header">Create Account</header>
+    <main class="main">
+      <form class="form">
+        <div class="two">
+          <div class="two__block">
+            <label>First name*</label>
+            <input type="text" placeholder="Enter your first name" class="input-first"/>
+          </div>
+          <div class="two__block">
+            <label>Last name*</label>
+            <input type="text" placeholder="Enter your first name" class="input-last"/>
+          </div>
+        </div>
+        <div class="email">
+          <label>Email*</label>
+          <input type="email" placeholder="Enter your email" class="input-email"/>
+        </div>
+        <div class="two">
+          <div class="two__block">
+            <label for="">Password*</label
+            ><input type="text" placeholder="Enter your password" class="input-pass"/>
+          </div>
+          <div class="two__block">
+            <label for="">Confirm password*</label
+            ><input type="text" placeholder="Confirm your password" class="input-confirm"/>
+          </div>
+        </div>
+        <div class="two">
+          <div class="two__block">
+            <label for="">Gender:</label>
+            <div class="choose">
+              <div class="choose__option">
+                <div><input type="radio" name="gender" /></div>
+                <label for="">Male</label>
+              </div>
+              <div class="choose__option">
+                <div><input type="radio" name="gender" /></div>
+                <label for="">Female</label>
+              </div>
+            </div>
+          </div>
+          <div class="two__block">
+            <label for="">Hobbies:</label>
+            <div class="choose">
+              <div class="choose__option">
+                <input type="checkbox" />
+                <label for="">Music</label>
+              </div>
+              <div class="choose__option">
+                <input type="checkbox" />
+                <label for="">Sports</label>
+              </div>
+              <div class="choose__option">
+                <input type="checkbox" />
+                <label for="">Travel</label>
+              </div>
+              <div class="choose__option">
+                <input type="checkbox" />
+                <label for="">Movies</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="two">
+          <div class="two__block">
+            <label>Source of Income</label
+            ><input
+              type="text"
+              name="work"
+              list="job"
+              placeholder="Choose your income"
+              class="input-income"
+            />
+            <datalist id="job">
+              <option>Employed</option>
+              <option>Unemployed</option>
+            </datalist>
+          </div>
+          <div class="two__block">
+            <label for="">Income</label>
+            <div class="income-block">
+              <input
+                class="income-block__input"
+                type="range"
+                min="0"
+                max="100"
+                step="1"
+                value="50"
+              />
+              <div class="income-block__salary">20K</div>
+            </div>
+          </div>
+        </div>
+        <div class="two">
+          <div class="two__block">
+            <label for="">Upload Profile Picture</label>
+            <div class="upload-input">
+              <input type="file" placeholder="Choose file" />
+            </div>
+          </div>
+          <div class="two__block">
+            <label for="">Age</label
+            ><input type="number" placeholder="Enter your age" class="input-age"/>
+          </div>
+        </div>
+        <div class="bio">
+          <label>Bio</label>
+          <textarea
+            class="bio__content"
+            name="content"
+            placeholder="Tell about yourself"
+          ></textarea>
+        </div>
+      </form>
+      <div class="create"><button class="create__button">Create</button></div>
+    </main>
+    <script src="./dist/script.js"></script>
+  </body>
+</html>
