@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./scss/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="enter-task">
+        <input
+          type="text"
+          class="input"
+          placeholder="Type here to add a task..."
+        />
+        <div class="btn">
+          <img src="./assets/plus.png" alt="plus" class="plus" /><span
+            class="add"
+            >Add</span
+          >
+        </div>
+      </div>
+      <div class="tasks" id="task-list">
+        
+      </div>
+    </div>
+    <div class="clear-btn">
+      <img src="./assets/rubish.png" alt="rubish" class="rubish-btn" />
+      <span>Clear all tasks</span>
+    </div>
+    <script type="module" src="./dist/index.js"></script>
+  </body>
+</html>
