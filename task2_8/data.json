@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Red Fox",
+        "price": 1500,
+        "rating": 3,
+        "type": "Wild",
+        "img": "fox1.png"
+    },
+    {
+        "name": "Arctic Fox",
+        "price": 2000,
+        "rating": 5,
+        "type": "Wild",
+        "img": "fox2.png"
+    },
+    {
+        "name": "Fennec Fox",
+        "price": 2500,
+        "rating": 4,
+        "type": "Exotic",
+        "img": "fox3.png"
+    },
+    {
+        "name": "Corsac Fox",
+        "price": 1800,
+        "rating": 2,
+        "type": "Wild",
+        "img": "fox4.png"
+    },
+    {
+        "name": "Gray Fox",
+        "price": 1700,
+        "rating": 3,
+        "type": "Wild",
+        "img": "fox5.png"
+    },
+    {
+        "name": "Silver Fox",
+        "price": 2200,
+        "rating": 1,
+        "type": "Exotic",
+        "img": "fox6.png"
+    },
+    {
+        "name": "Pale Fox",
+        "price": 1600,
+        "rating": 5,
+        "type": "Wild",
+        "img": "fox7.png"
+    },
+    {
+        "name": "Bengal Fox",
+        "price": 1750,
+        "rating": 4,
+        "type": "Wild",
+        "img": "fox8.png"
+    },
+    {
+        "name": "Kit Fox",
+        "price": 1650,
+        "rating": 4,
+        "type": "Wild",
+        "img": "fox1.png"
+    },
+    {
+        "name": "Swift Fox",
+        "price": 1550,
+        "rating": 3,
+        "type": "Wild",
+        "img": "fox2.png"
+    },
+    {
+        "name": "Ruppell's Fox",
+        "price": 1700,
+        "rating": 2,
+        "type": "Wild",
+        "img": "fox3.png"
+    },
+    {
+        "name": "Tibetan Sand Fox",
+        "price": 1900,
+        "rating": 5,
+        "type": "Wild",
+        "img": "fox4.png"
+    }
+]
